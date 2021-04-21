@@ -35,7 +35,16 @@
 			width: 100%;
 		}
 	</style>
-	
+	<!-- Zoomscript start -->
+    <script type="text/javascript" charset="utf-8" src="jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="zoomscript.js"></script>
+	<script type="text/javascript">
+		// Initialer Aufruf nach dem Laden der Seite
+		window.onready = function () {
+			zoomInitialisieren(1920,1080); 
+		}; 
+	</script>
+	<!-- Zoomscript zuende -->
 	
 </head>
 <body>
