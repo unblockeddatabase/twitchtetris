@@ -2059,7 +2059,7 @@ function RandomBag(b) {
         this.queue.push(this.nextAvailable())
     }
 }
-RandomBag.initialList = ["i"];
+RandomBag.initialList = ["a", "b", "c", "t"];
 RandomBag.prototype.getQueue = function() {
     return this.queue
 };
